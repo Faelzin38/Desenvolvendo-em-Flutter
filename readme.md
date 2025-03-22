@@ -1,4 +1,4 @@
-# Hello this is my fisrt project in Flutter !!
+# Hello, this is my first project in Flutter!!
 
 <!DOCTYPE html>
 <html lang="en">
