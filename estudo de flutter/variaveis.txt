@@ -1,0 +1,25 @@
+void main () {
+  //Produtos
+  //variável mais leve
+  int id;
+  //variável mais pesada
+  double preco;
+  //variável para textos 
+  String nome ;
+  //booleana
+  bool venda = true;
+  //variável genérica
+  var  variavel = 1;
+  
+   
+  nome = 'Pendrive';
+  preco = 1.4;
+  id = 3;
+  
+    print ('$nome');
+   print (preco);
+   print (id);
+  print (venda);
+  print (variavel);
+
+}
