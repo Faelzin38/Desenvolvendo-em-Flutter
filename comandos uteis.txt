@@ -1,0 +1,12 @@
+Gerando apk.
+
+Mais pesado: ( flutter build apk )
+Esse comando gera um APK universal, compatível com todas as arquiteturas de processador (ARM, ARM64, x86). Porém, ele é maior porque contém código para todas as versões de dispositivos.
+
+Mais leve: ( flutter build apk --split-per-abi
+ )
+Esse comando gera diferentes APKs otimizados para cada tipo de processador (arm64-v8a, armeabi-v7a, x86), reduzindo o tamanho do arquivo final para cada usuário.
+
+Para a play story: ( flutter build appbundle
+ )
+Se você deseja distribuir o app na Play Store, o ideal é gerar um App Bundle (AAB), que permite que a Play Store distribua versões otimizadas para cada dispositivo.
